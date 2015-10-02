@@ -1,0 +1,67 @@
+
+
+
+
+
+
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.asus.quraan.Sign_Up">
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Your Username"
+        android:id="@+id/editText3"
+        android:background="#ffe6e6e6"
+        android:layout_above="@+id/editText4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="47dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Your Emil"
+        android:inputType="textEmailAddress"
+
+        android:id="@+id/editText4"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="#ffe6e6e6" />
+
+    <EditText
+        android:layout_width="fill_parent"
+
+        android:hint="Enter Your Password"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText5"
+        android:layout_below="@+id/editText4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:background="#ffe6e6e6" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:hint="Confirm your pasword"
+
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText6"
+        android:layout_below="@+id/editText5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        android:background="#ffe6e6e6" />
+
+
+</RelativeLayout>

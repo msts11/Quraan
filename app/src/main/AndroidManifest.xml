@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asus.quraan" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:supportsRtl="true"
+        >
+
+        <activity
+            android:name=".MainScreenActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Browse"
+            android:label="@string/title_activity_browse" >
+        </activity>
+        <activity
+            android:name=".Quran_Prints"
+            android:label="@string/title_activity_quran__prints" >
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".Sign_Up"
+            android:label="@string/title_activity_sign__up" >
+        </activity>
+        <activity
+            android:name=".Surah"
+            android:label="@string/title_activity_surah" >
+        </activity>
+    </application>
+
+</manifest>
