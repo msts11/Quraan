@@ -7,7 +7,7 @@
     tools:context="com.example.asus.quraan.appSettings">
 
     <TextView
-        android:text="@string/hello_world"
+        android:text="nothing yet to set"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="30px"
