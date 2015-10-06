@@ -41,6 +41,14 @@
             android:name=".appSettings"
             android:label="@string/title_activity_app_settings" >
         </activity>
+        <activity
+            android:name=".Athkar"
+            android:label="@string/title_activity_athkar" >
+        </activity>
+        <activity
+            android:name=".Tajweed"
+            android:label="@string/title_activity_tajweed" >
+        </activity>
     </application>
 
 </manifest>

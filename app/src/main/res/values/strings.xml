@@ -14,4 +14,6 @@
     <string name="title_activity_app__setting">App_Setting</string>
     <string name="title_activity_settings">Settings</string>
     <string name="title_activity_app_settings">appSettings</string>
+    <string name="title_activity_athkar">Athkar</string>
+    <string name="title_activity_tajweed">Tajweed</string>
 </resources>
