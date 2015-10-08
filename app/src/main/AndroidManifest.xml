@@ -6,10 +6,8 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme"
         android:supportsRtl="true"
-        >
-
+        android:theme="@style/AppTheme" >
         <activity
             android:name=".MainScreenActivity"
             android:label="@string/app_name" >
@@ -38,6 +36,22 @@
         <activity
             android:name=".Surah"
             android:label="@string/title_activity_surah" >
+        </activity>
+        <activity
+            android:name=".appSettings"
+            android:label="@string/title_activity_app_settings" >
+        </activity>
+        <activity
+            android:name=".Athkar"
+            android:label="@string/title_activity_athkar" >
+        </activity>
+        <activity
+            android:name=".Tajweed"
+            android:label="@string/title_activity_tajweed" >
+        </activity>
+        <activity
+            android:name=".FirstPrint"
+            android:label="@string/title_activity_first_print" >
         </activity>
     </application>
 

@@ -1,24 +1,22 @@
 package com.example.asus.quraan;
 
-import android.content.Intent;
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
+public class appSettings extends AppCompatActivity {
 
-public class MainScreenActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_screen);
+        setContentView(R.layout.activity_app_settings);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main_screen, menu);
+        getMenuInflater().inflate(R.menu.menu_app_settings, menu);
         return true;
     }
 
@@ -36,18 +34,4 @@ public class MainScreenActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
-    public void Browse(View view){
-        Intent browse = new Intent(this,Browse.class);
-        startActivity(browse);
-    }
-    public void Login(View view){
-        Intent login = new Intent(this,Login.class);
-        startActivity(login);
-    }
-
-    public void app_settings(View view){
-        Intent App_settings_intent = new Intent(this,appSettings.class);
-        startActivity(App_settings_intent);
-    }
-
 }
