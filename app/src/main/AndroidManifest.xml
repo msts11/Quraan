@@ -49,6 +49,10 @@
             android:name=".Tajweed"
             android:label="@string/title_activity_tajweed" >
         </activity>
+        <activity
+            android:name=".FirstPrint"
+            android:label="@string/title_activity_first_print" >
+        </activity>
     </application>
 
 </manifest>
