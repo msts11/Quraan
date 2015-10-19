@@ -53,6 +53,14 @@
             android:name=".FirstPrint"
             android:label="@string/title_activity_first_print" >
         </activity>
+        <activity
+            android:name=".Comments"
+            android:label="@string/title_activity_comments" >
+        </activity>
+        <activity
+            android:name=".Add_Comment"
+            android:label="@string/title_activity_add__comment" >
+        </activity>
     </application>
 
 </manifest>

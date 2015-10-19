@@ -1,9 +1,11 @@
 package com.example.asus.quraan;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class FirstPrint extends AppCompatActivity {
 
@@ -33,5 +35,9 @@ public class FirstPrint extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+    public void Comments(View view){
+        Intent intent = new Intent(this,Comments.class);
+        startActivity(intent);
     }
 }
