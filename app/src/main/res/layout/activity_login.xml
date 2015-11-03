@@ -12,9 +12,9 @@
         android:inputType="textPersonName"
         android:hint="Enter your user name"
         android:ems="10"
-        android:id="@+id/editText"
+        android:id="@+id/username_edit_text_login"
         android:layout_marginBottom="45dp"
-        android:layout_above="@+id/editText2"
+        android:layout_above="@+id/password_edit_text_login"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:background="#ffe6e6e6" />
@@ -26,9 +26,9 @@
         android:ems="10"
         android:hint="Enter Your Password"
 
-        android:id="@+id/editText2"
+        android:id="@+id/password_edit_text_login"
         android:layout_marginBottom="106dp"
-        android:layout_above="@+id/button4"
+        android:layout_above="@+id/action_button_login"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:background="#ffe6e6e6" />
@@ -37,17 +37,17 @@
         android:layout_width="200dp"
         android:layout_height="60dp"
         android:text="Login"
-        android:id="@+id/button4"
+        android:id="@+id/action_button_login"
         android:layout_marginBottom="28dp"
-        android:layout_above="@+id/button5"
-        android:layout_alignLeft="@+id/button5"
-        android:layout_alignStart="@+id/button5" />
+        android:layout_above="@+id/edittext_action_signup"
+        android:layout_alignLeft="@+id/edittext_action_signup"
+        android:layout_alignStart="@+id/edittext_action_signup" />
 
     <Button
         android:layout_width="200dp"
         android:layout_height="60dp"
         android:text="Sign up"
-        android:id="@+id/button5"
+        android:id="@+id/edittext_action_signup"
         android:layout_marginBottom="36dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"

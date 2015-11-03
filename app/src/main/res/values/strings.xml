@@ -19,4 +19,5 @@
     <string name="title_activity_first_print">FirstPrint</string>
     <string name="title_activity_comments">Comments</string>
     <string name="title_activity_add__comment">Add_Comment</string>
+    <string name="title_activity_main_after_login">mainAfterLogin</string>
 </resources>
