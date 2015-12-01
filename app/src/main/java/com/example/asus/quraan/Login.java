@@ -13,9 +13,7 @@ import com.parse.LogInCallback;
 import com.parse.ParseException;
 import com.parse.ParseUser;
 
-/**
- * Created by rufflez on 7/8/14.
- */
+
 public class Login extends Activity {
 
     private EditText usernameEditText;
@@ -74,8 +72,7 @@ public class Login extends Activity {
                                            dlg.setMessage("Logging in.  Please wait.");
                                            dlg.show();
                                            // Call the Parse login method
-                                           ParseUser.logInInBackground(usernameEditText.getText().toString(), passwordEditText.getText()
-                                                   .toString(), new LogInCallback() {
+                                           ParseUser.logInInBackground(usernameEditText.getText().toString(), passwordEditText.getText().toString(), new LogInCallback() {
 
                                                @Override
                                                public void done(ParseUser user, ParseException e) {

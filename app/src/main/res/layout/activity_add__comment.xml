@@ -9,7 +9,7 @@
     <EditText
         android:layout_width="fill_parent"
         android:layout_height="200dp"
-        android:id="@+id/editText8"
+        android:id="@+id/Write_comment_editText"
         android:hint="Write Your Comment"
         android:background="#ffdedede"
         android:layout_marginBottom="97dp"
@@ -21,8 +21,8 @@
         android:layout_width="200dp"
         android:layout_height="40dp"
         android:hint="Type Here..."
-        android:id="@+id/editText9"
-        android:layout_below="@+id/textView11"
+        android:id="@+id/Surah_name_editText"
+        android:layout_below="@+id/Surah_name_textView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:background="#ffdedede" />
@@ -31,9 +31,9 @@
         android:layout_width="200dp"
         android:layout_height="40dp"
         android:hint="Type Here..."
-        android:id="@+id/editText10"
-        android:layout_below="@+id/textView12"
-        android:layout_alignRight="@+id/editText9"
+        android:id="@+id/Ayah_number_editText"
+        android:layout_below="@+id/ayah_number_textView"
+        android:layout_alignRight="@+id/Surah_name_editText"
         android:background="#ffdedede" />
 
     <TextView
@@ -41,7 +41,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Surah Name"
-        android:id="@+id/textView11"
+        android:id="@+id/Surah_name_textView"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -52,9 +52,9 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Ayah Number"
-        android:id="@+id/textView12"
+        android:id="@+id/ayah_number_textView"
         android:textSize="20dp"
-        android:layout_below="@+id/editText9"
+        android:layout_below="@+id/Surah_name_editText"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -64,7 +64,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Comment"
         android:id="@+id/textView13"
-        android:layout_above="@+id/editText8"
+        android:layout_above="@+id/Write_comment_editText"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:textSize="25dp" />
@@ -73,7 +73,8 @@
         android:layout_width="fill_parent"
         android:layout_height="60dp"
         android:text="Add Comment"
-        android:id="@+id/button9"
+        android:id="@+id/add_comment"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        />
 </RelativeLayout>
