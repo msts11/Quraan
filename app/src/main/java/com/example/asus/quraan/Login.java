@@ -44,8 +44,7 @@ public class Login extends Activity {
                                        public void onClick (View view){
                                            // Validate the log in data
                                            boolean validationError = false;
-                                           StringBuilder validationErrorMessage =
-                                                   new StringBuilder("getResources().getString(R.string.error_intro)");
+                                           StringBuilder validationErrorMessage = new StringBuilder("getResources().getString(R.string.error_intro)");
                                            if (isEmpty(usernameEditText)) {
                                                validationError = true;
                                                validationErrorMessage.append("error_blank_username");
@@ -61,8 +60,7 @@ public class Login extends Activity {
 
                                            // If there is a validation error, display the error
                                            if (validationError) {
-                                               Toast.makeText(Login.this, validationErrorMessage.toString(), Toast.LENGTH_LONG)
-                                                       .show();
+                                               Toast.makeText(Login.this, validationErrorMessage.toString(), Toast.LENGTH_LONG).show();
                                                return;
                                            }
 
